@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ChangePasswordComponent } from './core/change-password/change-password.component';
+import { LoginComponent } from './core/login/login.component';
 
 import { ForgotPasswordComponent } from './core/forget-password/forget-password.component';
 import { ResetPasswordComponent } from './core/reset-password/reset-password.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -40,6 +40,7 @@ import { FooterComponent } from './shared-components/footer/footer.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
